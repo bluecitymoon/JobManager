@@ -43,19 +43,27 @@
                                         </button>
                                     </subviews>
                                     <constraints>
+                                        <constraint firstAttribute="trailingMargin" secondItem="bae-rC-Ufe" secondAttribute="trailing" constant="8" id="2uO-EM-FoE"/>
                                         <constraint firstItem="QrT-XA-na4" firstAttribute="top" secondItem="x2g-FQ-boe" secondAttribute="top" id="3Ak-a0-1i5"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="QrT-XA-na4" secondAttribute="bottom" constant="-0.5" id="M8N-TC-Rfq"/>
                                         <constraint firstItem="QrT-XA-na4" firstAttribute="leading" secondItem="x2g-FQ-boe" secondAttribute="leadingMargin" constant="9" id="VDH-EU-Zkv"/>
                                         <constraint firstItem="bae-rC-Ufe" firstAttribute="leading" secondItem="QrT-XA-na4" secondAttribute="trailing" constant="72" id="nZE-wK-xrB">
                                             <variation key="widthClass=compact" constant="58"/>
                                         </constraint>
-                                        <constraint firstItem="bae-rC-Ufe" firstAttribute="top" secondItem="x2g-FQ-boe" secondAttribute="topMargin" constant="10" id="vdF-xi-Bnu">
-                                            <variation key="widthClass=compact" constant="6"/>
-                                        </constraint>
                                         <constraint firstItem="bae-rC-Ufe" firstAttribute="centerY" secondItem="x2g-FQ-boe" secondAttribute="centerY" id="wbN-hs-zlh">
                                             <variation key="widthClass=compact" constant="-3.75"/>
                                         </constraint>
                                     </constraints>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="2uO-EM-FoE"/>
+                                        </mask>
+                                    </variation>
+                                    <variation key="widthClass=compact">
+                                        <mask key="constraints">
+                                            <include reference="2uO-EM-FoE"/>
+                                        </mask>
+                                    </variation>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="jobName" destination="QrT-XA-na4" id="Ehe-Bs-KrW"/>
