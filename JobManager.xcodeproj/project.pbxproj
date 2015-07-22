@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4377B701B5F913300CA9DD3 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4377B6F1B5F913300CA9DD3 /* SwiftyJSON.swift */; };
+		C4377B721B5F94C600CA9DD3 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4377B711B5F94C600CA9DD3 /* Response.swift */; };
+		C4377B741B5F99BF00CA9DD3 /* TokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4377B731B5F99BF00CA9DD3 /* TokenManager.swift */; };
+		C46122A51B5F367300789C2A /* bt_bigbutton_nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C46122A41B5F367300789C2A /* bt_bigbutton_nor@3x.png */; };
+		C46122AB1B5F40B800789C2A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46122AA1B5F40B800789C2A /* LoginViewController.swift */; };
 		C4A851FC1B58C869008BE1DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A851FB1B58C869008BE1DD /* AppDelegate.swift */; };
 		C4A851FE1B58C869008BE1DD /* JobListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A851FD1B58C869008BE1DD /* JobListViewController.swift */; };
 		C4A852001B58C869008BE1DD /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A851FF1B58C869008BE1DD /* SecondViewController.swift */; };
@@ -14,6 +19,8 @@
 		C4A852051B58C869008BE1DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4A852041B58C869008BE1DD /* Images.xcassets */; };
 		C4A852081B58C869008BE1DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4A852061B58C869008BE1DD /* LaunchScreen.xib */; };
 		C4A852141B58C869008BE1DD /* JobManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A852131B58C869008BE1DD /* JobManagerTests.swift */; };
+		C4EF72F61B5F84FE0083EB54 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EF72F51B5F84FE0083EB54 /* LoginService.swift */; };
+		C4EF73171B5F876C0083EB54 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EF73101B5F87240083EB54 /* Alamofire.framework */; };
 		C4F176C61B58E5F900899AC9 /* JobCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F176C51B58E5F900899AC9 /* JobCell.swift */; };
 		C4F176C81B58E60600899AC9 /* AutomaticJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F176C71B58E60600899AC9 /* AutomaticJob.swift */; };
 		C4F176CB1B59014100899AC9 /* JobManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4F176C91B59014100899AC9 /* JobManager.xcdatamodeld */; };
@@ -28,9 +35,42 @@
 			remoteGlobalIDString = C4A851F51B58C869008BE1DD;
 			remoteInfo = JobManager;
 		};
+		C4EF730F1B5F87240083EB54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4EF73081B5F87240083EB54 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		C4EF73111B5F87240083EB54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4EF73081B5F87240083EB54 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire OSX";
+		};
+		C4EF73131B5F87240083EB54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4EF73081B5F87240083EB54 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		C4EF73151B5F87240083EB54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4EF73081B5F87240083EB54 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire OSX Tests";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C4377B6F1B5F913300CA9DD3 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Libs/SwiftyJSON.swift; sourceTree = "<group>"; };
+		C4377B711B5F94C600CA9DD3 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		C4377B731B5F99BF00CA9DD3 /* TokenManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenManager.swift; sourceTree = "<group>"; };
+		C46122A41B5F367300789C2A /* bt_bigbutton_nor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bt_bigbutton_nor@3x.png"; path = "Resources/images/bt_bigbutton_nor@3x.png"; sourceTree = "<group>"; };
+		C46122AA1B5F40B800789C2A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Modules/Auth/LoginViewController.swift; sourceTree = "<group>"; };
 		C4A851F61B58C869008BE1DD /* JobManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A851FA1B58C869008BE1DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4A851FB1B58C869008BE1DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +82,8 @@
 		C4A8520D1B58C869008BE1DD /* JobManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A852121B58C869008BE1DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4A852131B58C869008BE1DD /* JobManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobManagerTests.swift; sourceTree = "<group>"; };
+		C4EF72F51B5F84FE0083EB54 /* LoginService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		C4EF73081B5F87240083EB54 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
 		C4F176C51B58E5F900899AC9 /* JobCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobCell.swift; sourceTree = "<group>"; };
 		C4F176C71B58E60600899AC9 /* AutomaticJob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutomaticJob.swift; sourceTree = "<group>"; };
 		C4F176CA1B59014100899AC9 /* JobManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JobManager.xcdatamodel; sourceTree = "<group>"; };
@@ -54,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4EF73171B5F876C0083EB54 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,11 +110,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C4377B6A1B5F911400CA9DD3 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				C4377B6F1B5F913300CA9DD3 /* SwiftyJSON.swift */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		C46122A21B5F364D00789C2A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C46122A31B5F365F00789C2A /* images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C46122A31B5F365F00789C2A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C46122A41B5F367300789C2A /* bt_bigbutton_nor@3x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		C46122A61B5F3FD000789C2A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				C46122A71B5F403400789C2A /* Auth */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		C46122A71B5F403400789C2A /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				C46122AA1B5F40B800789C2A /* LoginViewController.swift */,
+				C4EF72F51B5F84FE0083EB54 /* LoginService.swift */,
+			);
+			name = Auth;
+			sourceTree = "<group>";
+		};
 		C4A851ED1B58C869008BE1DD = {
 			isa = PBXGroup;
 			children = (
 				C4A851F81B58C869008BE1DD /* JobManager */,
 				C4A852101B58C869008BE1DD /* JobManagerTests */,
+				C4EF72F71B5F85DE0083EB54 /* frameworks */,
 				C4A851F71B58C869008BE1DD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,8 +173,11 @@
 		C4A851F81B58C869008BE1DD /* JobManager */ = {
 			isa = PBXGroup;
 			children = (
+				C4377B6A1B5F911400CA9DD3 /* Libs */,
+				C46122A61B5F3FD000789C2A /* Modules */,
 				C4F176FD1B59026E00899AC9 /* Model */,
 				C4F176C71B58E60600899AC9 /* AutomaticJob.swift */,
+				C4377B731B5F99BF00CA9DD3 /* TokenManager.swift */,
 				C4F176C51B58E5F900899AC9 /* JobCell.swift */,
 				C4A851FB1B58C869008BE1DD /* AppDelegate.swift */,
 				C4A851FD1B58C869008BE1DD /* JobListViewController.swift */,
@@ -97,6 +185,7 @@
 				C4A852011B58C869008BE1DD /* Main.storyboard */,
 				C4A852041B58C869008BE1DD /* Images.xcassets */,
 				C4A852061B58C869008BE1DD /* LaunchScreen.xib */,
+				C46122A21B5F364D00789C2A /* Resources */,
 				C4A851F91B58C869008BE1DD /* Supporting Files */,
 			);
 			path = JobManager;
@@ -128,10 +217,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C4EF72F71B5F85DE0083EB54 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4EF73081B5F87240083EB54 /* Alamofire.xcodeproj */,
+			);
+			name = frameworks;
+			sourceTree = "<group>";
+		};
+		C4EF73091B5F87240083EB54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4EF73101B5F87240083EB54 /* Alamofire.framework */,
+				C4EF73121B5F87240083EB54 /* Alamofire.framework */,
+				C4EF73141B5F87240083EB54 /* Alamofire iOS Tests.xctest */,
+				C4EF73161B5F87240083EB54 /* Alamofire OSX Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		C4F176FD1B59026E00899AC9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				C4F176FE1B5902B300899AC9 /* CoreData */,
+				C4377B711B5F94C600CA9DD3 /* Response.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -212,6 +321,12 @@
 			mainGroup = C4A851ED1B58C869008BE1DD;
 			productRefGroup = C4A851F71B58C869008BE1DD /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C4EF73091B5F87240083EB54 /* Products */;
+					ProjectRef = C4EF73081B5F87240083EB54 /* Alamofire.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C4A851F51B58C869008BE1DD /* JobManager */,
@@ -220,6 +335,37 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		C4EF73101B5F87240083EB54 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = C4EF730F1B5F87240083EB54 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C4EF73121B5F87240083EB54 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = C4EF73111B5F87240083EB54 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C4EF73141B5F87240083EB54 /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = C4EF73131B5F87240083EB54 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C4EF73161B5F87240083EB54 /* Alamofire OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire OSX Tests.xctest";
+			remoteRef = C4EF73151B5F87240083EB54 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		C4A851F41B58C869008BE1DD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -227,6 +373,7 @@
 			files = (
 				C4A852031B58C869008BE1DD /* Main.storyboard in Resources */,
 				C4A852081B58C869008BE1DD /* LaunchScreen.xib in Resources */,
+				C46122A51B5F367300789C2A /* bt_bigbutton_nor@3x.png in Resources */,
 				C4A852051B58C869008BE1DD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,9 +393,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4F177041B59036700899AC9 /* UserLocal.swift in Sources */,
+				C4377B741B5F99BF00CA9DD3 /* TokenManager.swift in Sources */,
 				C4F176CB1B59014100899AC9 /* JobManager.xcdatamodeld in Sources */,
 				C4A852001B58C869008BE1DD /* SecondViewController.swift in Sources */,
+				C4377B701B5F913300CA9DD3 /* SwiftyJSON.swift in Sources */,
 				C4A851FC1B58C869008BE1DD /* AppDelegate.swift in Sources */,
+				C4EF72F61B5F84FE0083EB54 /* LoginService.swift in Sources */,
+				C46122AB1B5F40B800789C2A /* LoginViewController.swift in Sources */,
+				C4377B721B5F94C600CA9DD3 /* Response.swift in Sources */,
 				C4F176C81B58E60600899AC9 /* AutomaticJob.swift in Sources */,
 				C4A851FE1B58C869008BE1DD /* JobListViewController.swift in Sources */,
 				C4F176C61B58E5F900899AC9 /* JobCell.swift in Sources */,

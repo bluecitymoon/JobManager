@@ -12,6 +12,8 @@
 	<dict>
 		<key>3A0A2965973CF1F6DBEDC41E47C935A58FDD3CF7</key>
 		<string>https://github.com/bluecitymoon/JobManager.git</string>
+		<key>67620B5EFA902936DF04070AF595B76AB0333747</key>
+		<string>https://github.com/bluecitymoon/Alamofire.git</string>
 		<key>C861FC00CEE0F6A6BE81FCFF6785FAA78C58EBB3</key>
 		<string>https://github.com/SwiftyJSON/SwiftyJSON.git</string>
 	</dict>
@@ -21,8 +23,10 @@
 	<dict>
 		<key>3A0A2965973CF1F6DBEDC41E47C935A58FDD3CF7</key>
 		<string>../..</string>
+		<key>67620B5EFA902936DF04070AF595B76AB0333747</key>
+		<string>../../Alamofire</string>
 		<key>C861FC00CEE0F6A6BE81FCFF6785FAA78C58EBB3</key>
-		<string>../..SwiftyJSON/</string>
+		<string>../..SwiftyJSON</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/bluecitymoon/JobManager.git</string>
@@ -32,6 +36,14 @@
 	<string>3A0A2965973CF1F6DBEDC41E47C935A58FDD3CF7</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>67620B5EFA902936DF04070AF595B76AB0333747</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Alamofire</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
@@ -46,7 +58,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>C861FC00CEE0F6A6BE81FCFF6785FAA78C58EBB3</string>
 			<key>IDESourceControlWCCName</key>
-			<string>SwiftyJSON</string>
+			<string>JobManagerSwiftyJSON</string>
 		</dict>
 	</array>
 </dict>
